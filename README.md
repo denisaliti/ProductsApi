@@ -1,6 +1,6 @@
  Products API (Technical Assignment by Denis Aliti)
 
-This project is a .NET 8 Web API developed for the InterAdria technical assignment. It implements a product management system with CRUD operations, filtering, pagination, and JWT authentication.
+This project is a .NET 8 Web API. It implements a product management system with CRUD operations, filtering, pagination, and JWT authentication.
 
 The architecture follows a clean separation of concerns using a Service layer and DTOs.
 
