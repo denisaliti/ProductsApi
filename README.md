@@ -81,12 +81,6 @@ Creates a new product.
    Required fields: Name, Category, Price.
    Requires Authentication.
 
-  Test Credentials
-To test the protected endpoints (POST, PUT, DELETE), use the following default user to generate a JWT token via the login endpoint:
-
-*   Username: `admin`
-*   Password: `password123`
-
 PUT `/api/products/{id}`
 Updates an existing product record.
    Requires Authentication.
@@ -94,3 +88,9 @@ Updates an existing product record.
 DELETE `/api/products/{id}`
 Deletes a product by ID.
    Requires Authentication.
+
+  Test Credentials
+To test the protected endpoints (POST, PUT, DELETE), use the following default user to generate a JWT token via the login endpoint:
+
+*   Username: `admin`
+*   Password: `password123`
